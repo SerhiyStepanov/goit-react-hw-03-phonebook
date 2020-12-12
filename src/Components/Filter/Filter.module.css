@@ -16,3 +16,8 @@
   height: 16px;
   color: rgb(100, 150, 250);
 }
+
+.input {
+  min-width: 170px;
+  outline-color: rgb(100, 150, 250);
+}

@@ -13,7 +13,13 @@ export default function Filter({ value, onChange }) {
           <FiSearch />
         </span>
       </label>
-      <input type="text" value={value} onChange={onChange} id={inputFilterId} />
+      <input
+        type="text"
+        value={value}
+        onChange={onChange}
+        id={inputFilterId}
+        className={s.input}
+      />
     </div>
   );
 }

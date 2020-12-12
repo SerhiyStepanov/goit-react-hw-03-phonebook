@@ -47,6 +47,7 @@ export default class ContactForm extends Component {
               id={inputNameId}
               value={this.state.name}
               onChange={this.onInputChange}
+              className={s.input}
               placeholder="Enter name"
             />
           </div>
@@ -64,6 +65,7 @@ export default class ContactForm extends Component {
               id={inputNumberId}
               value={this.state.number}
               onChange={this.onInputChange}
+              className={s.input}
               placeholder="Enter number"
             />
           </div>
